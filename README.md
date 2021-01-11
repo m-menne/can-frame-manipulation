@@ -2,7 +2,7 @@
 ![Alt Text](can_frame_manipulation.gif)
 
 ## Overview
-This respository contains two implementations of a passive CAN controller for receiving and manipulating CAN frames using a microcontroller. This CAN controller allows the manipulation of on-going CAN traffic and thus testing the safety and robustness of controller area networks against malicious nodes.
+This respository contains two implementations of a passive CAN controller for receiving and manipulating CAN frames using a microcontroller. This CAN controller allows the manipulation of on-going CAN traffic and thus testing the security and robustness of controller area networks against malicious nodes.
 
 The basic functionality of the CAN controller is divided into a detection task, which receives and processes the current CAN frame in real time using a time-based approach, and an injection task, which manipulates the CRC checksum of the frame in the case of a CAN frame with the defined target ID and thus invalidates the frame.
 
